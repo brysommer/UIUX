@@ -1,0 +1,91 @@
+h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 5px;
+}
+
+h3 {
+    margin: 0
+    
+}
+
+a {
+    color: #466cd6;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1100px;
+    border: 2px solid #558675;
+    margin-bottom: 25px;
+    background-color: #77A897;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #558675;
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+}
+
+.si {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+.navi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 8px;
+}
+
+.body {
+    padding: 10px;
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid #bd9f84;
+    background-color: #F5C395;
+}
+
+.menu {
+    border-right: 2px solid gray;
+    border-top: 20px solid transparent;
+    width: 250px;
+}
+
+.content {
+    max-width: 800px;
+    padding: 15px;
+}
+
+.credits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px 0px;
+}
+
+.arrows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.avtor {
+    padding-right: 10px;
+}
