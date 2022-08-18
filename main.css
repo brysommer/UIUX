@@ -1,25 +1,35 @@
 h1 {
     margin: 0px;
     padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
     margin: 0px;
     padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h3 {
     margin: 0
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
     color: #466cd6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .header {
     margin: 0 auto;
-    width: 1100px;
+    width: 1076px;
     border: 2px solid #558675;
     margin-bottom: 25px;
     background-color: #77A897;
@@ -37,10 +47,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: 35px;
+    background-color: #89A6F5;
+    border-radius: 9px;
+    border: 2px solid #6f8bd9;
+    padding: 2px;
 }
 
 .si {
-    padding-right: 10px;
+    padding-right: 5px;
     border-right: 2px solid black;
 }
 
@@ -48,13 +62,17 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 8px;
+    padding: 0px;
+}
+
+.nav {
+    padding-left: 10px;
 }
 
 .body {
-    padding: 10px;
+    padding: 15px;
     margin: 0 auto;
-    width: 1100px;
+    width: 1066px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -64,12 +82,15 @@ a {
 
 .menu {
     border-right: 2px solid gray;
-    border-top: 20px solid transparent;
     width: 250px;
 }
 
+.m {
+    padding-bottom: 5px;
+}
+
 .content {
-    max-width: 800px;
+    max-width: 770px;
     padding: 15px;
 }
 
